@@ -96,5 +96,19 @@ where access control rules can be applied.
 
 ---
 
+
+## 📸 Screenshots
+
+### Node.js App (localhost:3000)
+![Node.js App](network/screenshots/localhost_3000_webpage.png)
+
+### Mongo Express Database UI (localhost:8081)
+![Mongo Express](network/screenshots/localhost_8081-webpage.png)
+
+### Network Topology (Cisco Packet Tracer)
+![Network Topology](network/screenshots/topology.png)
+
 ## 👨‍💻 Author
-Roland — Full-Stack Developer with networking knowledge
+Roland Neequaye — Full-Stack Developer with networking knowledge
+
+
