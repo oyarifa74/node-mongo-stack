@@ -4,7 +4,7 @@ const { MongoClient } = require("mongodb");
 const app = express();
 const port = 3000;
 
-const mongoUrl = "mongodb://admin:password@mongodb:27017";
+const mongoUrl = `mongodb://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@mongodb:27017`;
 const client = new MongoClient(mongoUrl);
 
 let db;
